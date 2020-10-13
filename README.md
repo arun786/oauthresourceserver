@@ -162,17 +162,25 @@ The below are the details of the KeyCloak Server
     ClientId configured on the Server = photo-app-code-flow-client
  
     http://localhost:8080/auth/realms/appsdeveloperblog/protocol/openid-connect/auth?
+    
     client_id=photo-app-code-flow-client
+    
     &response_type=code&scope=openid profile
+    
     &redirect_uri=http://localhost:8083/callback
+    
     &state=abcde
     
     Response from the above , we get the code
     
     http://localhost:8083/callback?
+    
     state=abcde&session_state=c3b6120d-9eb1-477d-b2f7-7f2f72606c1a
+    
     &code=4e44e265-a424-4a91-8b5b-04200d1eda67.c3b6120d-9eb1-477d-b2f7-7f2f72606c1a.8bb312a1-336f-4ff8-be8a-8acbfe5bd014
     
 2. Based on the Authorization Code, we will be calling the below URL to get the access Token
 
+    http://localhost:8080/auth/realms/appsdeveloperblog/protocol/openid-connect/token
     
+![Access Token](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/accessToken.png)    
