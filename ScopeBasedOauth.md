@@ -39,7 +39,7 @@ profile in the access token, please see the code below.
     }
  
 
-By default keyCloak will be having the Scope profile, we have to remove the profile from default.
+Default keyCloak will be having the Scope profile, we have to remove the profile from default.
 
-![Profile as default Scope]()
-![Profile without default Scope]()
+![Profile as default Scope](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/beforeProfileasdefault.png)
+![Profile without default Scope](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/afterProfileNotDefault.png)

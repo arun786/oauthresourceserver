@@ -1,5 +1,7 @@
 # OAuth2.0 Resource Server
 
+[Scope based Access Control](https://github.com/arun786/oauthresourceserver/blob/main/ScopeBasedOauth.md)
+
 Once the Authorization server setup done. we get the below urls from the Authorization Server
 
 The OAuth Server is a KeyCloak Server, running on Port 8080.
