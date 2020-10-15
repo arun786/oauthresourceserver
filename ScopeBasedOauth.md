@@ -71,4 +71,9 @@ Step 1 : use the below end point to get the code.
 http://localhost:8080/auth/realms/appsdeveloperblog/protocol/openid-connect/auth?client_id=photo-app-code-flow-client&response_type=code&scope=openid profile&redirect_uri=http://localhost:8083/callback&state=abcde
 
 Step 2: use the code to get the access token.
+![Access Token](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/access%20token%20for%20profile.png)
+
+Step 3: Once we get the access Token, we use it to get the response from resource server
+
+![Proper Response](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/proper%20response.png)
 
