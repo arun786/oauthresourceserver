@@ -56,9 +56,9 @@ http://localhost:8083/callback?state=abcde&session_state=30c72e58-31c0-4061-bd2e
 Step 2:
 
 Get the code from the response and to get the access token from the below Post method
-![]()
+![Access Token](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/Screen%20Shot%202020-10-15%20at%2012.36.23%20AM.png)
 
 Step 3:
 
 When we call the resource server to get the resource, we get 403 error as below.
-![]()
+![Response](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/Screen%20Shot%202020-10-15%20at%2012.36.55%20AM.png)
