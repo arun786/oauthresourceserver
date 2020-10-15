@@ -44,6 +44,7 @@ Default keyCloak will be having the Scope profile, we have to remove the profile
 ![Profile as default Scope](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/beforeProfileasdefault.png)
 ![Profile without default Scope](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/afterProfileNotDefault.png)
 
+## Scenario 1 : when we don't pass the scope profile in the request
 
 Step 1 : use the below to get the code
 
@@ -62,3 +63,12 @@ Step 3:
 
 When we call the resource server to get the resource, we get 403 error as below.
 ![Response](https://github.com/arun786/oauthresourceserver/blob/main/src/main/resources/Screen%20Shot%202020-10-15%20at%2012.36.55%20AM.png)
+
+## Scenario 2 : when we pass the scope profile in the request
+
+Step 1 : use the below end point to get the code.
+
+http://localhost:8080/auth/realms/appsdeveloperblog/protocol/openid-connect/auth?client_id=photo-app-code-flow-client&response_type=code&scope=openid profile&redirect_uri=http://localhost:8083/callback&state=abcde
+
+Step 2: use the code to get the access token.
+
